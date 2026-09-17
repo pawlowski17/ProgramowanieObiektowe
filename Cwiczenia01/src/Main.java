@@ -18,7 +18,7 @@ void main() {
     int liczbaCalkowita = 5;
     double liczbaRzeczywista;
 
-    liczbaRzeczywista = (double) liczbaCalkowita /2;
+    liczbaRzeczywista = (double) liczbaCalkowita / 2;
     System.out.println("Wynik dzielenia liczby 5 przez 2 to " + liczbaRzeczywista);
 
     char znak = 'a';
@@ -28,10 +28,22 @@ void main() {
     System.out.println("Napis wielkimi literami: " + napis.toUpperCase());
 
     System.out.println("Wynik 1 + 2 + 3 = " + 1 + 2 + 3);
-    System.out.println("Wynik 1 + 2 + 3 = " +( 1 + 2 + 3));
+    System.out.println("Wynik 1 + 2 + 3 = " + (1 + 2 + 3));
     System.out.println(1 + 2 + 3 + "to wynik 1 + 2 + 3");
 
 
+    System.out.println("Ania");
+    System.out.println("Bartek");
+    System.out.println("Kasia");
+
+    String imie = "Paweł";
+    int rokUrodzenia = 2009;
+    double czasDoMatury = 0.66;
+
+    int obecnyRok = 2026;
+    int wiek = obecnyRok - rokUrodzenia;
+
+    System.out.println("Mam na imię " + imie + ", mam " + wiek + " lat i będę pisać maturę za " + czasDoMatury + " roku.");
+
+
 }
-
-
