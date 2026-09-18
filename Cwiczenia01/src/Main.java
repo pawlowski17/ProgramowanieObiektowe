@@ -45,5 +45,34 @@ void main() {
 
     System.out.println("Mam na imię " + imie + ", mam " + wiek + " lat i będę pisać maturę za " + czasDoMatury + " roku.");
 
+//    Scanner scanner = new Scanner(System.in);
+//
+//    System.out.print("Podaj temperaturę w stopniach Celsjusza: ");
+//    double stopnie = scanner.nextDouble();
+//
+//    double fahrenheit = 1.8 * stopnie + 32.0;
+//
+//    System.out.println("Temperatura w skali Fahrenheita wynosi: " + fahrenheit);
+
+
+//    Scanner scanner = new Scanner(System.in);
+//    System.out.print("Podaj 1 bok trojkata: ");
+//    double bok1 = scanner.nextDouble();
+//    System.out.print("Podaj 2 bok trojkata: ");
+//    double bok2 = scanner.nextDouble();
+//    System.out.print("Podaj 3 bok trojkata: ");
+//    double bok3 = scanner.nextDouble();
+//
+//    double obwod = bok1 + bok2 + bok3;
+//    System.out.println("obwod trojkata = " + obwod);
+
+
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Podaj 1 imie: ");
+    double imie1 = scanner.nextDouble();
+    System.out.print("Podaj 2 imie: ");
+    double imie2 = scanner.nextDouble();
+    System.out.print("Podaj 3 imie: ");
+    double imie3 = scanner.nextDouble();
 
 }
